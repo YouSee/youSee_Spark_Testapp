@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="300px" width="300px">
+	<g transform="translate(0,0)">
+<rect id="rounded-rectangle" x="0" y="0" height="300px" width="300px" stroke-width = "2px" rx="5" ry="10" fill="#222222"/>
+</g>
+</svg>
