@@ -11,5 +11,7 @@
 # Used fonts : 
   - for light text: FreeSans.ttf
   - for bold text: work-sans.black.otf 
+  
+# Media Screen: 1280 x 720
 
 # Used locally configured data in json fomat and retriving from data.json file to display/load contents dynamically
