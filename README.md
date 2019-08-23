@@ -12,4 +12,4 @@
   - for light text: FreeSans.ttf
   - for bold text: work-sans.black.otf 
 
-# Used locally configured data in json fomat and retriving from data.json file to display contents
+# Used locally configured data in json fomat and retriving from data.json file to display/load contents dynamically
