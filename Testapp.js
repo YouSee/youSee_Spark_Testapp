@@ -848,7 +848,7 @@ px.import({
                 }
         }
         if(containerPos==3){
-            if (index < secondRowObjArray.length) {
+            if (index < thirdRowObjArray.length) {
             updateThirdRowData(index);   
             }else {
                 index=0;
