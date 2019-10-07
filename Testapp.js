@@ -181,8 +181,15 @@ px.import({
 
     // Get the current date and time
     let date = new Date();
+
+    // Get day name
+    let days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+    let dayName = days[date.getDay()];
+
+    // get time
     let time = date.getHours()
     let min = date.getMinutes();
+
     let highlighter1;
     let highlighter2;
     let highlighter3;
@@ -412,6 +419,7 @@ px.import({
             url: base + logoUrl,
             parent: carouselContainer
         });
+        // Day name need to be translated in Danis
         logoTagline = scene.create({
             t: "text",
             text: "SONDAG | 19:40",
@@ -522,7 +530,7 @@ px.import({
     function updateCarouselData(index) {
         let carouselObj = carouselObjArray[index];
         carouselSlideBg.url = base + carouselObj.carouselBg;
-        logoTagline.text = "SONDAG | " + time + ":" + min;
+        logoTagline.text = dayName+" | " + time + ":" + min;
         channelLogo.url = base + carouselObj.channelLogoUrl;
         channelProgTitletxt.text = carouselObj.progTitleText;
         channelProgInfotxt.text = carouselObj.progInfoText;
